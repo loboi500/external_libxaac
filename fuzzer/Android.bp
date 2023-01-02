@@ -1,26 +1,3 @@
-package {
-    // See: http://go/android-license-faq
-    // A large-scale-change added 'default_applicable_licenses' to import
-    // all of the 'license_kinds' from "external_libxaac_license"
-    // to get the below license kinds:
-    //   SPDX-license-identifier-Apache-2.0
-    default_applicable_licenses: ["external_libxaac_license"],
-}
-
-cc_fuzz {
-    name: "xaac_dec_fuzzer",
-    host_supported: true,
-    srcs: [
-        "xaac_dec_fuzzer.cpp",
-    ],
-    static_libs: [
-        "libxaacdec",
-        "liblog",
-    ],
-    fuzz_config: {
-        cc: [
-            "android-media-fuzzing-reports@google.com",
-        ],
-        componentid: 155276,
-    },
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5469ec662dbb7b60257aa90a249e88d725ebbb7ed6bcecf07dc5059d5b26f79
+size 660

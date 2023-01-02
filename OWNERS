@@ -1,3 +1,3 @@
-# owners for external/libxaac
-include platform/frameworks/av:/media/janitors/codec_OWNERS
-essick@google.com
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c01ed6d8506ced92e07a358b437705ef26c1bc10f751e9780e196cd078b3aa8
+size 108

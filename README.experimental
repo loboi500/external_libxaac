@@ -1,5 +1,3 @@
-This xaac codec (external/xaac) is experimental; it is not yet intended
-to be used on production devices.
-
-This codec should not be configured into any production Android device
-that is intended to be shipped.
+version https://git-lfs.github.com/spec/v1
+oid sha256:05a658b49eed49d45810e2ed16110f0e440a3207da2923446ad2b0f6ea84085f
+size 210
